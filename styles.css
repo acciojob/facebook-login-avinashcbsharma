@@ -1,1 +1,44 @@
-/*  your css code here. If applicable */
+body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:#f6f6f6;
+        }
+        #left{
+            width:450px;
+            margin-top: 70px;
+            display: inline-block;
+        }
+        .frm{
+            display: flex;
+            flex-direction: column;
+            width:300px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #ccc;
+            gap: 10px;
+        }
+        input{
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        button{
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .btn1{
+            background-color: #1877f2;
+           
+        }
+        .btn2{
+            background-color: #42b72a;
+        }
+		a:link {
+            text-decoration: none;
+        }
